@@ -1,4 +1,4 @@
-# Desafio: Ingestão e Busca Semântica com LangChain e Postgres
+# Desafio MBA Engenharia de Software com IA - Full Cycle
 
 Este projeto implementa um sistema RAG (Retrieval-Augmented Generation) capaz de responder perguntas baseadas no conteúdo de um arquivo PDF. O sistema utiliza LangChain para orquestrar o processo, Google Gemini para os modelos de linguagem (embeddings e geração de respostas) e PostgreSQL com a extensão pgVector para o armazenamento e busca dos dados vetoriais.
 
@@ -119,6 +119,9 @@ RESPOSTA: R$ 858.537,02.
 
 Faça sua pergunta: Qual o ano de fundação da empresa Alfa Energia Holding?
 RESPOSTA: 1971
+
+Faça sua pergunta: Quantos clientes tem a empresa Aurora Eventos ME?
+RESPOSTA: Não tenho informações necessárias para responder sua pergunta.
 ---
 ```
 
